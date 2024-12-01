@@ -1,0 +1,40 @@
+{
+    "configurations": [
+        {
+            "name": "Generate Dataset",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "generate_dataset.py",
+            "envFile": "${workspaceFolder}/local.env",
+            "console": "integratedTerminal",
+            "justMyCode": false
+        },
+        {
+            "name": "Crawl Dataset",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "crawl_dataset.py",
+            "envFile": "${workspaceFolder}/local.env",
+            "console": "integratedTerminal",
+            "justMyCode": false
+        },
+        {
+            "name": "Data Split",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "data_split.py",
+            "envFile": "${workspaceFolder}/local.env",
+            "console": "integratedTerminal",
+            "justMyCode": false
+        },
+        {
+            "name": "Python Debugger: Current File",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "${file}",
+            "envFile": "${workspaceFolder}/local.env",
+            "console": "integratedTerminal",
+            "justMyCode": false
+        }
+    ]
+}
