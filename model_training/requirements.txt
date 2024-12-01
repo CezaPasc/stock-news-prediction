@@ -1,0 +1,13 @@
+transformers
+evaluate
+torch
+scikit-learn
+wandb
+tqdm
+transformers[torch]
+torchmetrics
+ipykernel
+nltk
+sentencepiece
+sacremoses
+python-dotenv
