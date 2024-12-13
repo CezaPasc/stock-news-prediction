@@ -1,0 +1,8 @@
+praw
+pandas
+tqdm
+spacy
+selenium
+duckduckgo_search
+matplotlib
+yfinance[nospam]
